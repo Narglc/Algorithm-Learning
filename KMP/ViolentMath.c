@@ -17,15 +17,6 @@ int violentMatch(char* S,char* P){
 		}
 	}
 	return -1;
-		
-
-/*
-	if(lenS>lenP){
-		return lenS;
-	}else{
-		return lenP;
-	}
-*/
 }
 
 int betterViolentMatch(char* S,char* P){
@@ -51,14 +42,11 @@ int betterViolentMatch(char* S,char* P){
 	}
 }
 
-
-
 main(){
 	//字符串赋值用法及实际长度
 	char sr[78]="f3irjigj";
 	printf("长度为%d\n",strlen(sr));
 	
-
 	//测试案例
 	char* stringS="BBC ABCDAB ABCDABCDABDE";
 	char* stringP="ABCDABD";
